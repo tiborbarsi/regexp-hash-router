@@ -1,0 +1,36 @@
+{
+  "name": "regexp-hash-router",
+  "version": "1.0.0",
+  "description": "A front-end hash routing library where routes are regexp strings",
+  "main": "router.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "browserify tests/*.js | tape-run | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiborbarsi/regexp-hash-router.git"
+  },
+  "keywords": [
+    "hash",
+    "router",
+    "frontend",
+    "hashchange",
+    "regex"
+  ],
+  "author": "Tibor Barsi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tiborbarsi/regexp-hash-router/issues"
+  },
+  "homepage": "https://github.com/tiborbarsi/regexp-hash-router",
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "events": "^1.1.1",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.2",
+    "tape-run": "^2.1.4"
+  }
+}
