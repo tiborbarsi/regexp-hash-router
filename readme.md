@@ -22,7 +22,7 @@ npm install -S regexp-hash-router
 <a href="#/users">User List</a>
 <a href="#/users/11">User Detail</a>
 
-<a href="#/users/11">User Detail</a>
+<a href="#/posts/2016/state-of-the-art">Post Detail</a>
 ```
 
 ```js
