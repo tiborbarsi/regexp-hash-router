@@ -37,7 +37,7 @@ var router = Object.assign(new Events(), Router, {
     '/users': 'users:list',
     '/users/([0-9]+)': 'users:detail',
 
-    '/posts/([0-9]+)/([a-zA-Z-]+)': 'posts:detail'
+    '/posts/([0-9]+)/([a-z0-9-]+)': 'posts:detail'
   },
   defaultPath: '/'
 });
