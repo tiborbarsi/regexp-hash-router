@@ -1,6 +1,6 @@
 {
   "name": "regexp-hash-router",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A front-end hash routing library where routes are regexp strings",
   "main": "router.js",
   "directories": {
